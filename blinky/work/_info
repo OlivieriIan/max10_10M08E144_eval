@@ -1,0 +1,140 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/zzzProgramming/WorkRepos/Semion_qc/Feedthrough
+Eblinker
+Z0 w1600349038
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 101
+Z4 dD:/zzzProgramming/FPGA/blinky
+Z5 8D:/zzzProgramming/FPGA/blinky/blinker.vhdl
+Z6 FD:/zzzProgramming/FPGA/blinky/blinker.vhdl
+l0
+Z7 L19 1
+Vg]IWB:Uk;>kL7<mFz<1zH3
+!s100 @Q0;gB_LHVB^JIJlVhfR?2
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1600353855
+!i10b 1
+Z10 !s108 1600353854.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/zzzProgramming/FPGA/blinky/blinker.vhdl|
+Z12 !s107 D:/zzzProgramming/FPGA/blinky/blinker.vhdl|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+DEx4 work 7 blinker 0 22 g]IWB:Uk;>kL7<mFz<1zH3
+!i122 101
+l30
+L27 23
+VmUmJzez`FQABf8;zY:zjh2
+!s100 N48am51?mJNK^;h@^b75d1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eblinky
+Z15 w1600352524
+R1
+R2
+R3
+!i122 102
+R4
+Z16 8D:/zzzProgramming/FPGA/blinky/blinky.vhd
+Z17 FD:/zzzProgramming/FPGA/blinky/blinky.vhd
+l0
+R7
+VX:@c5gEWQOJFHI9PDN1Kc2
+!s100 Z:bAROcg75nYdEn8l05z02
+R8
+32
+R9
+!i10b 1
+Z18 !s108 1600353855.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/zzzProgramming/FPGA/blinky/blinky.vhd|
+Z20 !s107 D:/zzzProgramming/FPGA/blinky/blinky.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R1
+R2
+R3
+DEx4 work 6 blinky 0 22 X:@c5gEWQOJFHI9PDN1Kc2
+!i122 102
+l41
+L31 27
+V2g:]S8]Vmkaa>:W2dhH<l0
+!s100 kJ`NN<3;6hS=DK6LUj8HU1
+R8
+32
+R9
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R13
+R14
+Eblinky_tb
+Z21 w1600352474
+R1
+R2
+R3
+!i122 103
+R4
+Z22 8D:/zzzProgramming/FPGA/blinky/blinky_tb.vhd
+Z23 FD:/zzzProgramming/FPGA/blinky/blinky_tb.vhd
+l0
+L32 1
+V4aPWji033RjKD_a2ZAza32
+!s100 5GVzcBS^B0oK0kM6D5bNX2
+R8
+32
+R9
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/zzzProgramming/FPGA/blinky/blinky_tb.vhd|
+Z25 !s107 D:/zzzProgramming/FPGA/blinky/blinky_tb.vhd|
+!i113 1
+R13
+R14
+Atestbench
+R1
+R2
+R3
+Z26 DEx4 work 9 blinky_tb 0 22 4aPWji033RjKD_a2ZAza32
+!i122 103
+l51
+Z27 L35 36
+Z28 V9WcW1DdKmQRd]L3iRmlKS1
+Z29 !s100 dB<T7N`M1>GaK3H17@BBg3
+R8
+32
+R9
+!i10b 1
+R18
+R24
+R25
+!i113 1
+R13
+R14

@@ -1,0 +1,12 @@
+Power Analyzer Status : Successful - Thu Sep 17 15:17:59 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : blinky
+Top-level Entity Name : Blinky
+Family : MAX 10
+Device : 10M08SAE144C8GES
+Power Models : Final
+Total Thermal Power Dissipation : 119.33 mW
+Core Dynamic Thermal Power Dissipation : 2.36 mW
+Core Static Thermal Power Dissipation : 110.62 mW
+I/O Thermal Power Dissipation : 6.35 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

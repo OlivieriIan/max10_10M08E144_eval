@@ -1,0 +1,57 @@
+--------------------------------------------------------------------------------
+-- Entity: Blinky
+--------------------------------------------------------------------------------
+-- Filename     : blinky.vhd
+-- Creation date: 15-09-2020
+-- Author(s)    : Ian Olivieri
+-- Version      : 1.00
+-- Description  : 
+--------------------------------------------------------------------------------
+-- File History:
+-- Date       Version   Author            Comment
+-- 15-09-2020 1.00      Ian Olivieri      Creation of File
+--------------------------------------------------------------------------------
+
+library ieee;
+  use ieee.std_logic_1164.all;
+  use ieee.numeric_std.all;
+
+entity Blinky is
+  port(
+    CLOCK  : IN std_logic;
+    LED1   : out std_logic;
+	 LED2   : out std_logic;
+	 LED3   : out std_logic;
+	 LED4   : out std_logic;
+	 LED5   : out std_logic
+  );
+end entity;
+
+architecture behavioral of Blinky is
+  --- Signals definition ---
+  signal s_state : std_logic := '0';
+begin
+  --- Processes definition ---
+  toggle_led : process (CLOCK) is
+    -- counts for a blink freq: CLK freq / blink freq * Duty cycle
+	 constant c_led_period : integer := 25000000;
+	 variable cnt: integer range 0 to c_led_period := 0;
+  begin
+    if rising_edge(CLOCK) then
+      cnt     := cnt + 1;
+		if (cnt = c_led_period) then
+			cnt := 0;
+			s_state <= not s_state; -- toggle led output
+		end if;
+    end if;
+  end process;
+
+  --- IO mappings ---
+  LED1 <= s_state;
+  LED2 <= s_state;
+  LED3 <= s_state;
+  LED4 <= s_state;
+  LED5 <= s_state;
+end architecture;
+
+
